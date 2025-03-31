@@ -13,6 +13,18 @@ public enum Planeta {
     URANUS(8.686e+25, 2.5559e7),
     NEPTUNE(1.024e+26, 2.4746e7);
 
+    private double masa = 0f;
+    private double radio = 0f;
 
+    private Planeta(double masa, double radio) {
+        this.masa = masa;
+        this.radio = radio;
+    }
+    public double getMasa() {
+        return this.masa;
+    }
+    public double getRadio() {
+        return this.radio;
+    }
 
 }
