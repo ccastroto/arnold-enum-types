@@ -10,7 +10,7 @@ import edu.asestatuas.logica.Planeta;
 public class ArnoldTest {
 
     public static String[] planetas;
-/*
+
     @BeforeClass
     public static void CreacionArrayPlanetasSetup() {
         planetas = new String[8];
@@ -21,8 +21,8 @@ public class ArnoldTest {
         }
         assertThat(planetasIncluidos).isEqualTo(Planeta.values().length);
         assertThat(planetas).doesNotContainNull();
-    }*/
-/*
+    }
+
     @Test
     public void PlanetaConstructorTest() {
         // me aseguro de que los metodos de la api
@@ -36,7 +36,7 @@ public class ArnoldTest {
         assertThat(planeta.toString()).isEqualToIgnoringCase("MERCURY");
         assertThat(planeta.equals(Planeta.MERCURY)).isTrue();
         assertThat(Planeta.values()[0]).isEqualTo(planeta);
-    }*/
+    }
 
     @Test
     public void PlanetaGetMasaTest() {
@@ -49,7 +49,7 @@ public class ArnoldTest {
         Planeta planeta = Planeta.MERCURY;
         assertThat(planeta.getRadio()).isEqualTo(2.4397e+6);
     }
-    /*
+
     @Test
     public void PlanetaNamesIteratorTest() {
         for (Planeta planeta : Planeta.values()) {
@@ -63,7 +63,7 @@ public class ArnoldTest {
         double pesoHumano = 175;
         assertEquals(66.107583, planeta.pesoSuperficie(pesoHumano), 0.001);
     }
-
+/*
     @Test
     public void ArrayPlanetasTerrestresTest() {
 
