@@ -40,6 +40,12 @@ public enum Planeta {
     public double gravedadSuperficial(Planeta planeta) {
         return G * planeta.getMasa() / Math.pow(planeta.getRadio(), 2);
     }
+    public static EnumSet<Planeta> getPlanetasTerrestres(){
+        return EnumSet.range(MERCURY, MARS);
+    }
+    public static EnumSet<Planeta> getGigantesGaseosos(){
+        return EnumSet.complementOf(getPlanetasTerrestres());
+    }
 
 
 }
