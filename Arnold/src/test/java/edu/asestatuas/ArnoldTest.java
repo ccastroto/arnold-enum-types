@@ -63,7 +63,7 @@ public class ArnoldTest {
         double pesoHumano = 175;
         assertEquals(66.107583, planeta.pesoSuperficie(pesoHumano), 0.001);
     }
-/*
+
     @Test
     public void ArrayPlanetasTerrestresTest() {
 
@@ -100,5 +100,5 @@ public class ArnoldTest {
         for (Planeta planeta : Planeta.getGigantesGaseosos()) {
             assertThat(planeta.name()).isIn(gigantesGaseosos);
         }
-    }*/
+    }
 }
