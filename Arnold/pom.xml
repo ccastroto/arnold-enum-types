@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>Arnold</name>
-  <url>http://maven.apache.org</url>
+  <url>https://github.com/ccastroto/arnold-enum-types.git</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,7 +39,7 @@
             <index>true</index>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>edu.asestatuas.stockx.Stockx</mainClass>
+              <mainClass>edu.asestatuas.main.ArnoldMain</mainClass>
             </manifest>mvn -X
             <manifestEntries>
               <mode>development</mode>
