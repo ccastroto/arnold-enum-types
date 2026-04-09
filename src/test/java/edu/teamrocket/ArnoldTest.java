@@ -1,11 +1,11 @@
-package edu.asestatuas;
+package edu.teamrocket;
 
 import static org.junit.Assert.*;
 import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.Test;
 import org.junit.BeforeClass;
 
-import edu.asestatuas.logica.Planeta;
+import edu.teamrocket.logica.Planeta;
 
 public class ArnoldTest {
 

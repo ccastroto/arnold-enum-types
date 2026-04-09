@@ -1,6 +1,6 @@
-package edu.asestatuas.main;
+package edu.teamrocket.main;
 
-import edu.asestatuas.logica.Planeta;
+import edu.teamrocket.logica.Planeta;
 
 public class ArnoldMain {
 
