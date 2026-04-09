@@ -1,4 +1,4 @@
-package edu.asestatuas.logica;
+package edu.teamrocket.logica;
 
 import java.util.EnumSet;
 
@@ -29,10 +29,10 @@ public enum Planeta {
         return this.radio;
     }
     public double pesoSuperficie(double peso) {
-        return masaHumano(peso) * this.gravedadSuperficial(EARTH);
+        return masaHumano(peso) * this.gravedadSuperficial();
     }
     public double masaHumano(double peso) {
-        return peso / this.gravedadSuperficial();
+        return peso / this.gravedadSuperficial(EARTH);
     }
     public double gravedadSuperficial() {
         return G * this.masa / Math.pow(this.radio, 2);
